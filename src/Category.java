@@ -1,12 +1,12 @@
 class Category {
 
     String name;
-    String about;
+    String description;
 
 
-    Category(String name, String about) {
+    Category(String name, String description) {
         this.name = name;
-        this.about = about;
+        this.description = description;
 
     }
 }

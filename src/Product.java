@@ -1,23 +1,22 @@
 public class Product {
 
-
-    String nameProduct;
+    String name;
     double price;
-    String aboutProduct;
+    String description;
     Category category;
 
-    Product(String name1Product, double price, String aboutProduct, Category category) {
-        this.nameProduct = name1Product;
+    Product(String name, double price, String description, Category category) {
+        this.name = name;
         this.price = price;
-        this.aboutProduct = aboutProduct;
+        this.description = description;
         this.category = category;
 
     }
 
-    Product(String name1Product, double price, String aboutProduct) {
-        this.nameProduct = name1Product;
+    Product(String name1Product, double price, String description) {
+        this.name = name1Product;
         this.price = price;
-        this.aboutProduct = aboutProduct;
+        this.description = description;
     }
 
 }

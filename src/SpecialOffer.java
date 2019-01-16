@@ -1,14 +1,20 @@
+import java.util.Date;
+
 public class SpecialOffer {
-    String offert;
-    double timeOffert;
+    String offer;//
+    double timeOffer;//
+    String dataFrom;
+    String dataTo;
     double discount;
     Product product;
 
-    SpecialOffer(String offert, double timeOffert, double discount, Product product) {
-        this.offert = offert;
-        this.timeOffert = timeOffert;
+    SpecialOffer(String offer, double timeOffer, String dataFrom, String dataTo, double discount, Product product) {
+        this.offer = offer;
+        this.timeOffer = timeOffer;
         this.discount = discount;
         this.product = product;
+        this.dataFrom = dataFrom;
+        this.dataTo = dataTo;
     }
 
 }
